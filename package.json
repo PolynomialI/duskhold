@@ -1,0 +1,14 @@
+{
+  "name": "duskhold",
+  "private": true,
+  "type": "module",
+  "description": "An original Thronefall-inspired base-defence game, built into one HTML file.",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "test": "node tools/build.mjs && node tools/flow.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.63.0",
+    "three": "0.160.0"
+  }
+}
